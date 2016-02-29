@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87681275AD0998F25EDC302A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DC74BCE08D13A60F58825 /* libPods.a */; };
+		FA14A9341C8444F30084DC0C /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA14A9331C8444F30084DC0C /* testViewController.m */; };
 		FAA000F71C8432A200D3541A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA000F61C8432A200D3541A /* main.m */; };
 		FAA000FA1C8432A200D3541A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA000F91C8432A200D3541A /* AppDelegate.m */; };
 		FAA000FD1C8432A200D3541A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA000FC1C8432A200D3541A /* ViewController.m */; };
@@ -39,6 +40,8 @@
 		4706C8AAE4FF4EA6FF46B7DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A3DEAD2D0DA7A4C6C6970669 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A88DC74BCE08D13A60F58825 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA14A9321C8444F30084DC0C /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		FA14A9331C8444F30084DC0C /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		FAA000F21C8432A200D3541A /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA000F61C8432A200D3541A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAA000F81C8432A200D3541A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				FAA000F91C8432A200D3541A /* AppDelegate.m */,
 				FAA000FB1C8432A200D3541A /* ViewController.h */,
 				FAA000FC1C8432A200D3541A /* ViewController.m */,
+				FA14A9321C8444F30084DC0C /* testViewController.h */,
+				FA14A9331C8444F30084DC0C /* testViewController.m */,
 				FAA000FE1C8432A200D3541A /* Main.storyboard */,
 				FAA001011C8432A200D3541A /* Assets.xcassets */,
 				FAA001031C8432A200D3541A /* LaunchScreen.storyboard */,
@@ -347,6 +352,7 @@
 			files = (
 				FAA000FD1C8432A200D3541A /* ViewController.m in Sources */,
 				FAA000FA1C8432A200D3541A /* AppDelegate.m in Sources */,
+				FA14A9341C8444F30084DC0C /* testViewController.m in Sources */,
 				FAA000F71C8432A200D3541A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
